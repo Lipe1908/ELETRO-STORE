@@ -1,0 +1,58 @@
+.container-main {
+    margin-top: 10%;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.bg-coloor {
+    background-color: black;
+}
+
+.apexcharts-title-text, 
+.apexcharts-legend-text,
+tspan {
+    color: #fff !important;
+    fill: #fff;
+}
+
+.text-mid {
+   margin-left: 50%;
+}
+
+.btn-toggle::before {
+    filter: invert(1) !important ;
+}
+
+.borda-torta {
+    margin-top: 7% !important;
+}
+
+.dropdown-toggle::after { 
+    color: aliceblue;
+}
+.sidebar-ul li button:hover,
+.sidebar-home:hover{
+    color: black !important;
+}
+
+.btn-toggle:hover:before {
+    filter: invert(0) !important;
+    -webkit-filter: invert(0) !important;
+}
+
+.sidebar-home {
+    display: flex;
+    align-items: center;
+    width: min-content;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.accordion-button::after {
+    filter: saturate(0);
+}
+
